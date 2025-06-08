@@ -21,6 +21,7 @@ export async function getKinds(gusto) {
         'monumento': 'monument'
         // Agrega más tipos según sea necesario
     };
+    return kinds[gusto];
 }
 
 // Funcion para pasar kinds a gustos
@@ -35,4 +36,5 @@ export async function getGustos(kind) {
         'monument': 'monumento'
         // Agrega más tipos según sea necesario
     };
+    return gustos[kind];
 }
