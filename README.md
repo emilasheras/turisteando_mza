@@ -25,3 +25,7 @@ Planning and requirements documentation can be found in the [llm-context](./llm-
 ### Routes
 
 The SPA uses React Router. Each POI on the map links to `/place/:placeId`, which renders a detailed view for that location.
+
+### Routes (GPX Tracks)
+
+There is a basic prototype for uploading and listing GPS tracks. Use `/routes` to view existing routes and `/routes/upload` to upload a GPX file. Uploaded tracks are stored in the new `route` table in Supabase.
