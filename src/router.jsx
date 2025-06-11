@@ -10,6 +10,8 @@ import Sugerencias from './Sugerencias.jsx';
 import AgregarSitio from './AgregarSitio.jsx';
 import PlacePage from './PlacePage.jsx';
 import VistaBusqueda from './VistaBusqueda.jsx';
+import RoutesPage from './RoutesPage.jsx';
+import UploadRoute from './UploadRoute.jsx';
 
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
@@ -22,6 +24,8 @@ const router = createBrowserRouter([
   { path: '/agregar', element: <AgregarSitio /> },
   { path: '/place/:placeId', element: <PlacePage /> },
   { path: '/busqueda', element: <VistaBusqueda /> },
+  { path: '/routes', element: <RoutesPage /> },
+  { path: '/routes/upload', element: <UploadRoute /> },
 ]);
 
 export default router;
